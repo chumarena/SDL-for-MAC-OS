@@ -10,10 +10,6 @@ include_directories(${SDL2_INCLUDE_DIRS})
 # Добавляем исполняемый файл со всеми исходными файлами
 add_executable(app
     main.cpp
-    Game.cpp
-    Vector2D.cpp
-    TrailPoint.cpp
-    CircleRenderer.cpp
 )
 
 # Подключаем SDL2
